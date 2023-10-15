@@ -1,0 +1,14 @@
+body::before{
+    display:block ;
+    content: '';
+    height: 60px;
+}
+
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+/* the min width causes the input group to break on screen slarger than 768px */
